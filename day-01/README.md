@@ -2,59 +2,47 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
-## Development server
-- 1. Instyall
-
-To start a local development server, run:
+- Install Angular CLI
 
 ```bash
-ng serve
+npm install -g @angular/cli
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Check Angular CLI version
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
 ```bash
-ng generate component component-name
+ng version
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Create new project
+
 
 ```bash
-ng generate --help
+ng new <project-name>
 ```
 
-## Building
+- Start a project
 
-To build the project run:
 
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- In the **.ts** file for example in **app.ts** file we can create properties like this
+Here we do not want to use any keywords like let, var and const
 
-## Running unit tests
+- To access this properties in the **.html** file we need to use **'interpolation'** which is denoted with **{{}}**. We need to put the property name inside **{{}}** like this
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+
+<pre> ```html <h1>{{title}}</h1> ``` </pre>
+
+We can write JS code also inside **'interpolation'**
+
+- We can generate a new component by using this below command
 
 ```bash
-ng test
+ng g c <component-name>
 ```
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- We need to use the selector name which can be found inside the **.ts** file and we have to import that component
