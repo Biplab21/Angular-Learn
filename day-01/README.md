@@ -32,10 +32,7 @@ npm start
 - In the **.ts** file for example in **app.ts** file we can create properties like this
 Here we do not want to use any keywords like let, var and const
 
-- To access this properties in the **.html** file we need to use **'interpolation'** which is denoted with **{{}}**. We need to put the property name inside **{{}}** like this
-
-
-`<h1>{{title}}</h1>`
+- To access this properties in the **.html** file we need to use **'interpolation'** which is denoted with **{{}}**. We need to put the property name inside **{{}}** like this `<h1>{{title}}</h1>`
 
 We can write JS code also inside **'interpolation'**
 
