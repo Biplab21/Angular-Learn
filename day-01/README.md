@@ -34,7 +34,8 @@ Here we do not want to use any keywords like let, var and const
 
 - To access this properties in the **.html** file we need to use **'interpolation'** which is denoted with **{{}}**. We need to put the property name inside **{{}}** like this
 
-<h1>{{title}}</h1>
+
+`<h1>&#123;&#123;title&#125;&#125;</h1>`
 
 We can write JS code also inside **'interpolation'**
 
